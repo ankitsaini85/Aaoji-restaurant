@@ -13,6 +13,7 @@ export default function AboutSection() {
               width={400}
               height={400}
               className="w-full h-full object-cover"
+              priority
             />
           </div>
           <div className="rounded-br-[60px] overflow-hidden">
@@ -22,6 +23,7 @@ export default function AboutSection() {
               width={400}
               height={400}
               className="w-full h-full object-cover"
+              priority
             />
           </div>
           <div className="rounded-full overflow-hidden">
@@ -46,24 +48,27 @@ export default function AboutSection() {
 
         {/* Text Content */}
         <div className="flex-1 text-[#741510] space-y-4">
-          {/* <h4 className="text-md font-medium border-l-4 pl-3 border-[#741510]">The Story</h4> */}
-          <h2 className="text-[#8e2a19] font-semibold text-xl mb-2 relative inline-block before:absolute before:top-0 before:left-0 before:w-full before:h-[2px] before:bg-[#8e2a19] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#8e2a19]">The Story</h2>
+          <h2 className="text-[#8e2a19] font-semibold text-xl mb-2 relative inline-block before:absolute before:top-0 before:left-0 before:w-full before:h-[2px] before:bg-[#8e2a19] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#8e2a19]">
+            The Story
+          </h2>
 
           <h2 className="text-3xl lg:text-4xl font-bold">What Aaoji is all about!</h2>
           <p className="text-gray-700 text-base leading-relaxed">
             Founded in 2020, Aaoji was born out of a passion for bringing authentic, bold flavors to the streets,
-            offering a fun twist on traditional cuisine. We've quickly become a favorite destination for locals and
+            offering a fun twist on traditional cuisine. We&apos;ve quickly become a favorite destination for locals and
             travelers alike, serving up not just meals, but unforgettable experiences.
           </p>
           <p className="text-gray-700 text-base leading-relaxed">
-            Whether you’re stopping by for a quick bite or settling in for a leisurely meal, we take pride in offering
+            Whether you&apos;re stopping by for a quick bite or settling in for a leisurely meal, we take pride in offering
             delicious dishes made from the finest, locally sourced ingredients.
           </p>
           <div className="flex space-x-4 pt-4">
             <button className="bg-[#e53b1e] text-white px-6 py-2 rounded-full shadow-md hover:scale-105 transition">
               Call Us for Bookings
             </button>
-            <button className="text-[#741510] font-medium hover:underline">Explore Menu</button>
+            <button className="text-[#741510] font-medium hover:underline">
+              Explore Menu
+            </button>
           </div>
         </div>
       </div>
